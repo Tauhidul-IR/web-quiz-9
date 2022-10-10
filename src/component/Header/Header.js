@@ -11,11 +11,18 @@ const Header = () => {
                     open ? <XMarkIcon /> : <Bars3Icon />
                 }
             </div>
-            <div className={`text-white md:flex justify-center w-full absolute md:static duration-500 ${open ? 'top-6' : "top-[-120px]"}`}>
-                <NavLink className={'mr-3'} NavLink to={'/'} > Home</NavLink >
-                <NavLink className={'mr-3'} to={'/about'}>About</NavLink>
-                <NavLink className={'mr-3'} to={'/contact'}>Contact</NavLink>
-            </div >
+            <div className='flex justify-between container mx-auto'>
+                <div>
+                    <h1 className='text-4xl text-white'>Web-Quiz</h1>
+                </div>
+                <div>
+                    <div className={`text-white md:flex justify-center w-full absolute md:static duration-500 ${open ? 'top-6' : "top-[-120px]"}`}>
+                        <NavLink className={'mr-3'} NavLink to={'/'} > Home</NavLink >
+                        <NavLink className={'mr-3'} to={'/about'}>About</NavLink>
+                        <NavLink className={'mr-3'} to={'/contact'}>Contact</NavLink>
+                    </div >
+                </div>
+            </div>
         </div >
     );
 };
