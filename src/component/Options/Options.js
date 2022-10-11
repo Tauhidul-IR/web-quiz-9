@@ -15,10 +15,10 @@ const Options = ({ option, correctAnswer }) => {
     return (
         <div className=''>
 
-            <div className='bg-slate-100 m-6 p-5 flex items-center '>
+            <div className='bg-slate-100 m-3 p-1 sm:p-3 flex items-center '>
                 <input onClick={() => handleCorrect(option)} type="radio" name="radio-6" className="radio checked:bg-blue-500   mr-4" />
                 <ToastContainer />
-                <label>{option}</label>
+                <label className='text-sm sm:text-lg'>{option}</label>
             </div>
         </div>
     );

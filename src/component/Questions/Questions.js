@@ -16,7 +16,7 @@ const Questions = ({ qst }) => {
     // console.log(qst)
 
     return (
-        <div className='w-1/2 mx-auto border bg-cyan-100 rounded mt-3'>
+        <div className='w-3/4 mx-auto border bg-cyan-100 rounded mt-3'>
             <div>
                 <h1 className='text-2xl mb-3'>Question : {question}</h1>
                 <button onClick={() => handleEyeCorrect()}><ToastContainer /><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button>
