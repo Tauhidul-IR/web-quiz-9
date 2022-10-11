@@ -7,7 +7,7 @@ const Statistics = () => {
     // console.log(data.data)
 
     return (
-        <div>
+        <div className='bg-white'>
             <h1>This is Statistics page</h1>
             <div>
                 <LineChart width={500} height={500} data={data.data}>
