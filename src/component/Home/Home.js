@@ -8,7 +8,7 @@ const Home = () => {
     // console.log(catagoris.data)
     return (
         <div className='container mx-auto b'>
-            <div className='bg-white flex mb-5'>
+            <div className='bg-white flex sm:flex-row flex-col mb-5'>
                 <div>
                     <img className='h-80' src={img} alt="" ></img>
                 </div>
