@@ -19,6 +19,7 @@ const Header = () => {
                     <div className={`text-white md:flex justify-center w-full absolute md:static duration-500 ${open ? 'top-6' : "top-[-120px]"}`}>
                         <NavLink className={'mr-3'} NavLink to={'/'} > Home</NavLink >
                         <NavLink className={'mr-3'} to={'/about'}>About</NavLink>
+                        <NavLink className={'mr-3'} to={'/statistics'}>Statistics</NavLink>
                         <NavLink className={'mr-3'} to={'/blogs'}>Blogs</NavLink>
                     </div >
                 </div>

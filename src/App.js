@@ -6,6 +6,7 @@ import Home from './component/Home/Home';
 import About from './component/About/About';
 import Quizs from './component/Quizs/Quizs';
 import Blogs from './component/Blogs/Blogs';
+import Statistics from './component/Statistics/Statistics';
 
 function App() {
   const router = createBrowserRouter([
@@ -26,6 +27,10 @@ function App() {
         {
           path: '/about',
           element: <About></About>
+        },
+        {
+          path: '/statistics',
+          element: <Statistics></Statistics>
         }
         ,
         {
