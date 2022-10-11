@@ -7,9 +7,9 @@ const Options = ({ option, correctAnswer }) => {
     const handleCorrect = opt => {
         console.log(opt)
         if (opt === correctAnswer) {
-            toast("Correct Ans");
+            toast("Correct Answer");
         } else {
-            toast("Wrong");
+            toast("Wrong Answer");
         }
     }
     return (

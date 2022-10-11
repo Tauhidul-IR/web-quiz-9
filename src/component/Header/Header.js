@@ -9,7 +9,7 @@ const Header = () => {
 
             <div className='flex sm:flex-row flex-col  justify-between container mx-auto'>
                 <div>
-                    <h1 className='text-4xl text-white'>Web-Quiz</h1>
+                    <h1 className='text-4xl text-black'>Web-Quiz</h1>
                 </div>
                 <div className='text-black text-xl flex sm:flex-row flex-col'>
                     <NavLink className={'mr-3'} NavLink to={'/'} > Home</NavLink >
