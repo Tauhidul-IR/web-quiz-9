@@ -11,7 +11,7 @@ const Questions = ({ qst }) => {
             </div>
             <div>
                 {
-                    options.map(option => <Options option={option}></Options>)
+                    options.map(option => <Options option={option} correctAnswer={correctAnswer}></Options>)
                 }
             </div>
         </div>
