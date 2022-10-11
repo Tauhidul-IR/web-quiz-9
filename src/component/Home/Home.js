@@ -20,7 +20,7 @@ const Home = () => {
             </div>
 
 
-            <div className='grid lg:grid-cols-4 gap-2'>
+            <div className='grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2'>
                 {
                     catagoris.data.map(catagory => <Catagory key={catagory.id} catagory={catagory}></Catagory>)
                 }
