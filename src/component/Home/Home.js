@@ -5,7 +5,7 @@ import img from '../../image/quiz.png'
 
 const Home = () => {
     const catagoris = useLoaderData();
-    console.log(catagoris.data)
+    // console.log(catagoris.data)
     return (
         <div className='container mx-auto b'>
             <div className='bg-white flex mb-5'>
