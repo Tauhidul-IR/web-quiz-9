@@ -39,7 +39,8 @@ function App() {
           element: <Blogs></Blogs>
         }
       ]
-    }
+    },
+    { path: '*', element: <div>Page not Found</div> }
   ])
   return (
     <div className="App">
